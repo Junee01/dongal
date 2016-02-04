@@ -1,0 +1,33 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Listing G4 Dongal Board Globals</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Wr title</th>
+      <th>Wr link</th>
+      <th>Wr writer</th>
+      <th>Wr created on</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @g4_dongal_board_globals.each do |g4_dongal_board_global| %>
+      <tr>
+        <td><%= g4_dongal_board_global.wr_title %></td>
+        <td><%= g4_dongal_board_global.wr_link %></td>
+        <td><%= g4_dongal_board_global.wr_writer %></td>
+        <td><%= g4_dongal_board_global.wr_created_on %></td>
+        <td><%= link_to 'Show', g4_dongal_board_global %></td>
+        <td><%= link_to 'Edit', edit_g4_dongal_board_global_path(g4_dongal_board_global) %></td>
+        <td><%= link_to 'Destroy', g4_dongal_board_global, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New G4 dongal board global', new_g4_dongal_board_global_path %>

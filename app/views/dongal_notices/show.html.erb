@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Wr:</strong>
+  <%= @dongal_notice.wr_id %>
+</p>
+
+<p>
+  <strong>Bo table:</strong>
+  <%= @dongal_notice.bo_table %>
+</p>
+
+<p>
+  <strong>Update time:</strong>
+  <%= @dongal_notice.update_time %>
+</p>
+
+<p>
+  <strong>Check:</strong>
+  <%= @dongal_notice.check %>
+</p>
+
+<%= link_to 'Edit', edit_dongal_notice_path(@dongal_notice) %> |
+<%= link_to 'Back', dongal_notices_path %>

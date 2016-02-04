@@ -1,0 +1,29 @@
+<%= form_for(@dongal_board) do |f| %>
+  <% if @dongal_board.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@dongal_board.errors.count, "error") %> prohibited this dongal_board from being saved:</h2>
+
+      <ul>
+      <% @dongal_board.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :board_name %><br>
+    <%= f.text_field :board_name %>
+  </div>
+  <div class="field">
+    <%= f.label :board_title %><br>
+    <%= f.text_field :board_title %>
+  </div>
+  <div class="field">
+    <%= f.label :board_color %><br>
+    <%= f.text_field :board_color %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

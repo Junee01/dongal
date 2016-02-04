@@ -1,0 +1,2 @@
+module G4DongalBoardEdusHelper
+end

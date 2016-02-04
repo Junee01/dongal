@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  wr_id: 1
+  bo_table: MyString
+  update_time: 2016-02-04
+  check: MyString
+
+two:
+  wr_id: 1
+  bo_table: MyString
+  update_time: 2016-02-04
+  check: MyString

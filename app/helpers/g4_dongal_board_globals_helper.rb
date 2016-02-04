@@ -1,0 +1,2 @@
+module G4DongalBoardGlobalsHelper
+end

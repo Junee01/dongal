@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Board name:</strong>
+  <%= @dongal_board.board_name %>
+</p>
+
+<p>
+  <strong>Board title:</strong>
+  <%= @dongal_board.board_title %>
+</p>
+
+<p>
+  <strong>Board color:</strong>
+  <%= @dongal_board.board_color %>
+</p>
+
+<%= link_to 'Edit', edit_dongal_board_path(@dongal_board) %> |
+<%= link_to 'Back', dongal_boards_path %>

@@ -1,0 +1,33 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Listing Dongal Notices</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Wr</th>
+      <th>Bo table</th>
+      <th>Update time</th>
+      <th>Check</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @dongal_notices.each do |dongal_notice| %>
+      <tr>
+        <td><%= dongal_notice.wr_id %></td>
+        <td><%= dongal_notice.bo_table %></td>
+        <td><%= dongal_notice.update_time %></td>
+        <td><%= dongal_notice.check %></td>
+        <td><%= link_to 'Show', dongal_notice %></td>
+        <td><%= link_to 'Edit', edit_dongal_notice_path(dongal_notice) %></td>
+        <td><%= link_to 'Destroy', dongal_notice, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Dongal notice', new_dongal_notice_path %>

@@ -1,0 +1,2 @@
+module DongalNoticesHelper
+end

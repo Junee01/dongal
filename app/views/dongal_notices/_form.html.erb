@@ -1,0 +1,33 @@
+<%= form_for(@dongal_notice) do |f| %>
+  <% if @dongal_notice.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@dongal_notice.errors.count, "error") %> prohibited this dongal_notice from being saved:</h2>
+
+      <ul>
+      <% @dongal_notice.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :wr_id %><br>
+    <%= f.number_field :wr_id %>
+  </div>
+  <div class="field">
+    <%= f.label :bo_table %><br>
+    <%= f.text_field :bo_table %>
+  </div>
+  <div class="field">
+    <%= f.label :update_time %><br>
+    <%= f.date_select :update_time %>
+  </div>
+  <div class="field">
+    <%= f.label :check %><br>
+    <%= f.text_field :check %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

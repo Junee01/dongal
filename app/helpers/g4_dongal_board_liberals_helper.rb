@@ -1,0 +1,2 @@
+module G4DongalBoardLiberalsHelper
+end

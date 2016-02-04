@@ -1,0 +1,31 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Listing Dongal Boards</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Board name</th>
+      <th>Board title</th>
+      <th>Board color</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @dongal_boards.each do |dongal_board| %>
+      <tr>
+        <td><%= dongal_board.board_name %></td>
+        <td><%= dongal_board.board_title %></td>
+        <td><%= dongal_board.board_color %></td>
+        <td><%= link_to 'Show', dongal_board %></td>
+        <td><%= link_to 'Edit', edit_dongal_board_path(dongal_board) %></td>
+        <td><%= link_to 'Destroy', dongal_board, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Dongal board', new_dongal_board_path %>
