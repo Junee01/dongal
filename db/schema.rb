@@ -13,6 +13,27 @@
 
 ActiveRecord::Schema.define(version: 20160204022050) do
 
+  create_table "dongal_alarm", primary_key: "alarm_no", force: :cascade do |t|
+    t.string  "mb_uuid",     limit: 255,             null: false
+    t.integer "arts",        limit: 1,   default: 1, null: false
+    t.integer "bs",          limit: 1,   default: 1, null: false
+    t.integer "edus",        limit: 1,   default: 1, null: false
+    t.integer "engineers",   limit: 1,   default: 1, null: false
+    t.integer "entrances",   limit: 1,   default: 1, null: false
+    t.integer "globals",     limit: 1,   default: 1, null: false
+    t.integer "laws",        limit: 1,   default: 1, null: false
+    t.integer "liberals",    limit: 1,   default: 1, null: false
+    t.integer "lives",       limit: 1,   default: 1, null: false
+    t.integer "normals",     limit: 1,   default: 1, null: false
+    t.integer "pharms",      limit: 1,   default: 1, null: false
+    t.integer "proceedings", limit: 1,   default: 1, null: false
+    t.integer "sbas",        limit: 1,   default: 1, null: false
+    t.integer "scholars",    limit: 1,   default: 1, null: false
+    t.integer "sciences",    limit: 1,   default: 1, null: false
+    t.integer "socials",     limit: 1,   default: 1, null: false
+    t.integer "studies",     limit: 1,   default: 1, null: false
+  end
+
   create_table "dongal_boards", force: :cascade do |t|
     t.string "board_name",  limit: 255
     t.string "board_title", limit: 255
@@ -20,14 +41,7 @@ ActiveRecord::Schema.define(version: 20160204022050) do
     t.string "board_color", limit: 255
   end
 
-  create_table "dongal_like", primary_key: "like_no", force: :cascade do |t|
-    t.string   "mb_uuid",     limit: 255, null: false
-    t.integer  "wr_id",       limit: 4,   null: false
-    t.string   "bo_table",    limit: 127, null: false
-    t.datetime "update_time",             null: false
-  end
-
-  create_table "dongal_member", primary_key: "mb_no", force: :cascade do |t|
+  create_table "dongal_college", primary_key: "college_no", force: :cascade do |t|
     t.string  "mb_uuid",   limit: 255,             null: false
     t.integer "arts",      limit: 1,   default: 1, null: false
     t.integer "bs",        limit: 1,   default: 1, null: false
@@ -42,8 +56,27 @@ ActiveRecord::Schema.define(version: 20160204022050) do
     t.integer "socials",   limit: 1,   default: 1, null: false
   end
 
+  create_table "dongal_keyword", primary_key: "keyword_no", force: :cascade do |t|
+    t.string "mb_uuid",     limit: 255, null: false
+    t.string "keyword_txt", limit: 255, null: false
+  end
+
+  create_table "dongal_like", primary_key: "like_no", force: :cascade do |t|
+    t.string   "mb_uuid",     limit: 255, null: false
+    t.integer  "wr_id",       limit: 4,   null: false
+    t.string   "bo_table",    limit: 127, null: false
+    t.datetime "update_time",             null: false
+  end
+
+  create_table "dongal_member", primary_key: "mb_no", force: :cascade do |t|
+    t.string  "mb_uuid",     limit: 255,             null: false
+    t.integer "use_keyword", limit: 1,   default: 1, null: false
+  end
+
   create_table "dongal_notices", force: :cascade do |t|
     t.integer "wr_id",       limit: 4
+    t.string  "wr_title",    limit: 255
+    t.string  "wr_writer",   limit: 255
     t.string  "bo_table",    limit: 255
     t.date    "update_time"
     t.string  "check",       limit: 255

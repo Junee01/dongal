@@ -22,6 +22,8 @@ class DongalNotice < ActiveRecord::Base
 	G4DongalBoardArt.find_each() do |f|
                 DongalNotice.create(
                         :wr_id => f.id,
+			:wr_title => f.wr_title,
+			:wr_writer => f.wr_writer,
                         :bo_table => "arts",
                         :update_time => f.wr_created_on,
                         :check => f.wr_link
@@ -30,7 +32,9 @@ class DongalNotice < ActiveRecord::Base
         G4DongalBoardB.find_each() do |f|
                 DongalNotice.create(
                         :wr_id => f.id,
-                        :bo_table => "bs",
+                        :wr_title => f.wr_title,
+			:wr_writer => f.wr_writer,
+			:bo_table => "bs",
                         :update_time => f.wr_created_on,
                         :check => f.wr_link
                 )
@@ -38,7 +42,9 @@ class DongalNotice < ActiveRecord::Base
         G4DongalBoardEdu.find_each() do |f|
                 DongalNotice.create(
                         :wr_id => f.id,
-                        :bo_table => "edus",
+                        :wr_title => f.wr_title,
+			:wr_writer => f.wr_writer,
+			:bo_table => "edus",
                         :update_time => f.wr_created_on,
                         :check => f.wr_link
                 )
@@ -46,6 +52,8 @@ class DongalNotice < ActiveRecord::Base
         G4DongalBoardEngineer.find_each() do |f|
                 DongalNotice.create(
                         :wr_id => f.id,
+			:wr_title => f.wr_title,
+			:wr_writer => f.wr_writer,
                         :bo_table => "engineers",
                         :update_time => f.wr_created_on,
                         :check => f.wr_link
@@ -55,6 +63,8 @@ class DongalNotice < ActiveRecord::Base
 	G4DongalBoardEntrance.find_each() do |f|
                 DongalNotice.create(
                         :wr_id => f.id,
+			:wr_title => f.wr_title,
+			:wr_writer => f.wr_writer,
                         :bo_table => "entrances",
                         :update_time => f.wr_created_on,
                         :check => f.wr_link
@@ -63,6 +73,8 @@ class DongalNotice < ActiveRecord::Base
         G4DongalBoardGlobal.find_each() do |f|
                 DongalNotice.create(
                         :wr_id => f.id,
+			:wr_title => f.wr_title,
+			:wr_writer => f.wr_writer,
                         :bo_table => "globals",
                         :update_time => f.wr_created_on,
                         :check => f.wr_link
@@ -71,6 +83,8 @@ class DongalNotice < ActiveRecord::Base
         G4DongalBoardLaw.find_each() do |f|
                 DongalNotice.create(
                         :wr_id => f.id,
+			:wr_title => f.wr_title,
+			:wr_writer => f.wr_writer,
                         :bo_table => "laws",
                         :update_time => f.wr_created_on,
                         :check => f.wr_link
@@ -79,6 +93,8 @@ class DongalNotice < ActiveRecord::Base
         G4DongalBoardLiberal.find_each() do |f|
                 DongalNotice.create(
                         :wr_id => f.id,
+			:wr_title => f.wr_title,
+			:wr_writer => f.wr_writer,
                         :bo_table => "liberals",
                         :update_time => f.wr_created_on,
                         :check => f.wr_link
@@ -88,6 +104,8 @@ class DongalNotice < ActiveRecord::Base
 	G4DongalBoardLife.find_each() do |f|
                 DongalNotice.create(
                         :wr_id => f.id,
+			:wr_title => f.wr_title,
+			:wr_writer => f.wr_writer,
                         :bo_table => "lives",
                         :update_time => f.wr_created_on,
                         :check => f.wr_link
@@ -96,6 +114,8 @@ class DongalNotice < ActiveRecord::Base
         G4DongalBoardNormal.find_each() do |f|
                 DongalNotice.create(
                         :wr_id => f.id,
+			:wr_title => f.wr_title,
+			:wr_writer => f.wr_writer,
                         :bo_table => "normals",
                         :update_time => f.wr_created_on,
                         :check => f.wr_link
@@ -104,6 +124,8 @@ class DongalNotice < ActiveRecord::Base
         G4DongalBoardPharm.find_each() do |f|
                 DongalNotice.create(
                         :wr_id => f.id,
+			:wr_title => f.wr_title,
+			:wr_writer => f.wr_writer,
                         :bo_table => "pharms",
                         :update_time => f.wr_created_on,
                         :check => f.wr_link
@@ -112,6 +134,8 @@ class DongalNotice < ActiveRecord::Base
         G4DongalBoardProceeding.find_each() do |f|
                 DongalNotice.create(
                         :wr_id => f.id,
+			:wr_title => f.wr_title,
+			:wr_writer => f.wr_writer,
                         :bo_table => "proceedings",
                         :update_time => f.wr_created_on,
                         :check => f.wr_link
@@ -121,6 +145,8 @@ class DongalNotice < ActiveRecord::Base
 	G4DongalBoardSba.find_each() do |f|
                 DongalNotice.create(
                         :wr_id => f.id,
+			:wr_title => f.wr_title,
+			:wr_writer => f.wr_writer,
                         :bo_table => "sbas",
                         :update_time => f.wr_created_on,
                         :check => f.wr_link
@@ -129,6 +155,8 @@ class DongalNotice < ActiveRecord::Base
         G4DongalBoardScholar.find_each() do |f|
                 DongalNotice.create(
                         :wr_id => f.id,
+			:wr_title => f.wr_title,
+			:wr_writer => f.wr_writer,
                         :bo_table => "scholars",
                         :update_time => f.wr_created_on,
                         :check => f.wr_link
@@ -137,6 +165,8 @@ class DongalNotice < ActiveRecord::Base
         G4DongalBoardScience.find_each() do |f|
                 DongalNotice.create(
                         :wr_id => f.id,
+			:wr_title => f.wr_title,
+			:wr_writer => f.wr_writer,
                         :bo_table => "sciences",
                         :update_time => f.wr_created_on,
                         :check => f.wr_link
@@ -145,6 +175,8 @@ class DongalNotice < ActiveRecord::Base
         G4DongalBoardSocial.find_each() do |f|
                 DongalNotice.create(
                         :wr_id => f.id,
+			:wr_title => f.wr_title,
+			:wr_writer => f.wr_writer,
                         :bo_table => "socials",
                         :update_time => f.wr_created_on,
                         :check => f.wr_link
@@ -154,6 +186,8 @@ class DongalNotice < ActiveRecord::Base
 	G4DongalBoardStudy.find_each() do |f|
                 DongalNotice.create(
                         :wr_id => f.id,
+			:wr_title => f.wr_title,
+			:wr_writer => f.wr_writer,
                         :bo_table => "studies",
                         :update_time => f.wr_created_on,
                         :check => f.wr_link

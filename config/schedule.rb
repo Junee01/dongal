@@ -9,7 +9,7 @@
 #
  set :environment, 'development'
 
- every 20.minutes do
+ every 40.minutes do
 #   command "/usr/bin/some_great_command"
 #   runner "MyModel.some_method"
    rake "connect_task:run"

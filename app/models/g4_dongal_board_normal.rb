@@ -235,7 +235,7 @@ class G4DongalBoardNormal < ActiveRecord::Base
 				#타이틀 설정
 				:wr_title => notice.css('td')[1].css('a').text.strip,
 				#링크 설정
-				:wr_link => "http://edu.dongguk.edu/" + notice.css('td')[1].css('a')[0]['href'].strip.sub(/../,""),
+				:wr_link => "http://bs.dongguk.edu/" + notice.css('td')[1].css('a')[0]['href'].strip.sub(/../,""),
 				#작성자 설정
 				:wr_writer => notice.css('td')[2].css('span').text.strip,
 				#조회수 설정
