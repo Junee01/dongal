@@ -13851,3 +13851,240 @@ Completed 200 OK in 674ms (Views: 672.3ms | ActiveRecord: 0.9ms)
 
 
 Started GET "/" for 127.0.0.1 at 2016-02-19 15:00:07 +0900
+Processing by G4DongalBoardNormalsController#index as */*
+  [1m[36mG4DongalBoardNormal Load (5.3ms)[0m  [1mSELECT `g4_dongal_board_normals`.* FROM `g4_dongal_board_normals`[0m
+  Rendered g4_dongal_board_normals/index.html.erb within layouts/application (100.9ms)
+Completed 200 OK in 282ms (Views: 276.3ms | ActiveRecord: 5.3ms)
+
+
+Started GET "/dongal_notices" for 127.0.0.1 at 2016-02-19 15:00:08 +0900
+Processing by DongalNoticesController#index as */*
+  [1m[35mDongalNotice Load (1.1ms)[0m  SELECT `dongal_notices`.* FROM `dongal_notices`
+  Rendered dongal_notices/index.html.erb within layouts/application (1277.7ms)
+Completed 200 OK in 1470ms (Views: 1468.5ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-02-19 15:00:09 +0900
+Processing by G4DongalBoardNormalsController#index as */*
+  [1m[36mG4DongalBoardNormal Load (0.3ms)[0m  [1mSELECT `g4_dongal_board_normals`.* FROM `g4_dongal_board_normals`[0m
+  Rendered g4_dongal_board_normals/index.html.erb within layouts/application (39.5ms)
+Completed 200 OK in 233ms (Views: 232.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/dongal_notices" for 127.0.0.1 at 2016-02-19 15:00:10 +0900
+Processing by DongalNoticesController#index as */*
+  [1m[35mDongalNotice Load (0.9ms)[0m  SELECT `dongal_notices`.* FROM `dongal_notices`
+  Rendered dongal_notices/index.html.erb within layouts/application (653.0ms)
+Completed 200 OK in 734ms (Views: 732.8ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-02-19 15:20:05 +0900
+Processing by G4DongalBoardNormalsController#index as */*
+  [1m[36mG4DongalBoardNormal Load (0.3ms)[0m  [1mSELECT `g4_dongal_board_normals`.* FROM `g4_dongal_board_normals`[0m
+  Rendered g4_dongal_board_normals/index.html.erb within layouts/application (105.0ms)
+Completed 200 OK in 193ms (Views: 191.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/dongal_notices" for 127.0.0.1 at 2016-02-19 15:20:05 +0900
+Processing by DongalNoticesController#index as */*
+  [1m[35mDongalNotice Load (0.9ms)[0m  SELECT `dongal_notices`.* FROM `dongal_notices`
+  Rendered dongal_notices/index.html.erb within layouts/application (588.5ms)
+Completed 200 OK in 670ms (Views: 668.9ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-02-19 15:30:05 +0900
+Processing by G4DongalBoardNormalsController#index as */*
+  [1m[36mG4DongalBoardNormal Load (0.3ms)[0m  [1mSELECT `g4_dongal_board_normals`.* FROM `g4_dongal_board_normals`[0m
+  Rendered g4_dongal_board_normals/index.html.erb within layouts/application (31.5ms)
+Completed 200 OK in 170ms (Views: 169.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/dongal_notices" for 127.0.0.1 at 2016-02-19 15:30:05 +0900
+Processing by DongalNoticesController#index as */*
+  [1m[35mDongalNotice Load (0.9ms)[0m  SELECT `dongal_notices`.* FROM `dongal_notices`
+  Rendered dongal_notices/index.html.erb within layouts/application (618.6ms)
+Completed 200 OK in 724ms (Views: 723.0ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-02-19 15:40:05 +0900
+Processing by G4DongalBoardNormalsController#index as */*
+  [1m[36mG4DongalBoardNormal Load (0.3ms)[0m  [1mSELECT `g4_dongal_board_normals`.* FROM `g4_dongal_board_normals`[0m
+  Rendered g4_dongal_board_normals/index.html.erb within layouts/application (96.1ms)
+Completed 200 OK in 174ms (Views: 173.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/dongal_notices" for 127.0.0.1 at 2016-02-19 15:40:05 +0900
+Processing by DongalNoticesController#index as */*
+  [1m[35mDongalNotice Load (0.9ms)[0m  SELECT `dongal_notices`.* FROM `dongal_notices`
+  Rendered dongal_notices/index.html.erb within layouts/application (523.2ms)
+Completed 200 OK in 608ms (Views: 606.8ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-02-19 16:00:08 +0900
+Processing by G4DongalBoardNormalsController#index as */*
+  [1m[36mG4DongalBoardNormal Load (0.3ms)[0m  [1mSELECT `g4_dongal_board_normals`.* FROM `g4_dongal_board_normals`[0m
+  Rendered g4_dongal_board_normals/index.html.erb within layouts/application (112.9ms)
+Completed 200 OK in 303ms (Views: 302.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/dongal_notices" for 127.0.0.1 at 2016-02-19 16:00:08 +0900
+Processing by DongalNoticesController#index as */*
+  [1m[35mDongalNotice Load (0.9ms)[0m  SELECT `dongal_notices`.* FROM `dongal_notices`
+  Rendered dongal_notices/index.html.erb within layouts/application (1185.5ms)
+Completed 200 OK in 1322ms (Views: 1320.7ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-02-19 16:00:10 +0900
+Processing by G4DongalBoardNormalsController#index as */*
+  [1m[36mG4DongalBoardNormal Load (0.3ms)[0m  [1mSELECT `g4_dongal_board_normals`.* FROM `g4_dongal_board_normals`[0m
+  Rendered g4_dongal_board_normals/index.html.erb within layouts/application (37.0ms)
+Completed 200 OK in 184ms (Views: 182.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/dongal_notices" for 127.0.0.1 at 2016-02-19 16:00:10 +0900
+Processing by DongalNoticesController#index as */*
+  [1m[35mDongalNotice Load (0.9ms)[0m  SELECT `dongal_notices`.* FROM `dongal_notices`
+  Rendered dongal_notices/index.html.erb within layouts/application (662.8ms)
+Completed 200 OK in 805ms (Views: 803.7ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-02-19 16:20:04 +0900
+Processing by G4DongalBoardNormalsController#index as */*
+  [1m[36mG4DongalBoardNormal Load (0.4ms)[0m  [1mSELECT `g4_dongal_board_normals`.* FROM `g4_dongal_board_normals`[0m
+  Rendered g4_dongal_board_normals/index.html.erb within layouts/application (37.8ms)
+Completed 200 OK in 181ms (Views: 179.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/dongal_notices" for 127.0.0.1 at 2016-02-19 16:20:05 +0900
+Processing by DongalNoticesController#index as */*
+  [1m[35mDongalNotice Load (0.9ms)[0m  SELECT `dongal_notices`.* FROM `dongal_notices`
+  Rendered dongal_notices/index.html.erb within layouts/application (593.0ms)
+Completed 200 OK in 667ms (Views: 666.0ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-02-19 16:30:05 +0900
+Processing by G4DongalBoardNormalsController#index as */*
+  [1m[36mG4DongalBoardNormal Load (0.3ms)[0m  [1mSELECT `g4_dongal_board_normals`.* FROM `g4_dongal_board_normals`[0m
+  Rendered g4_dongal_board_normals/index.html.erb within layouts/application (101.9ms)
+Completed 200 OK in 182ms (Views: 181.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/dongal_notices" for 127.0.0.1 at 2016-02-19 16:30:05 +0900
+Processing by DongalNoticesController#index as */*
+  [1m[35mDongalNotice Load (0.9ms)[0m  SELECT `dongal_notices`.* FROM `dongal_notices`
+  Rendered dongal_notices/index.html.erb within layouts/application (529.6ms)
+Completed 200 OK in 734ms (Views: 672.4ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-02-19 16:40:05 +0900
+Processing by G4DongalBoardNormalsController#index as */*
+  [1m[36mG4DongalBoardNormal Load (0.3ms)[0m  [1mSELECT `g4_dongal_board_normals`.* FROM `g4_dongal_board_normals`[0m
+  Rendered g4_dongal_board_normals/index.html.erb within layouts/application (33.7ms)
+Completed 200 OK in 175ms (Views: 174.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/dongal_notices" for 127.0.0.1 at 2016-02-19 16:40:05 +0900
+Processing by DongalNoticesController#index as */*
+  [1m[35mDongalNotice Load (0.9ms)[0m  SELECT `dongal_notices`.* FROM `dongal_notices`
+  Rendered dongal_notices/index.html.erb within layouts/application (533.3ms)
+Completed 200 OK in 671ms (Views: 669.2ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-02-19 17:00:09 +0900
+Processing by G4DongalBoardNormalsController#index as */*
+  [1m[36mG4DongalBoardNormal Load (4.3ms)[0m  [1mSELECT `g4_dongal_board_normals`.* FROM `g4_dongal_board_normals`[0m
+  Rendered g4_dongal_board_normals/index.html.erb within layouts/application (105.9ms)
+Completed 200 OK in 187ms (Views: 181.8ms | ActiveRecord: 4.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-02-19 17:00:09 +0900
+Processing by G4DongalBoardNormalsController#index as */*
+  [1m[35mG4DongalBoardNormal Load (1.6ms)[0m  SELECT `g4_dongal_board_normals`.* FROM `g4_dongal_board_normals`
+  Rendered g4_dongal_board_normals/index.html.erb within layouts/application (52.0ms)
+Completed 200 OK in 192ms (Views: 190.1ms | ActiveRecord: 1.6ms)
+[2016-02-19 17:45:37] FATAL SignalException: SIGTERM
+	/root/.rbenv/versions/2.3.0/lib/ruby/2.3.0/webrick/server.rb:177:in `select'
+	/root/.rbenv/versions/2.3.0/lib/ruby/2.3.0/webrick/server.rb:177:in `block in start'
+	/root/.rbenv/versions/2.3.0/lib/ruby/2.3.0/webrick/server.rb:33:in `start'
+	/root/.rbenv/versions/2.3.0/lib/ruby/2.3.0/webrick/server.rb:164:in `start'
+	/root/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/rack-1.6.4/lib/rack/handler/webrick.rb:34:in `run'
+	/root/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/rack-1.6.4/lib/rack/server.rb:286:in `start'
+	/root/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/railties-4.2.5.1/lib/rails/commands/server.rb:80:in `start'
+	/root/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/railties-4.2.5.1/lib/rails/commands/commands_tasks.rb:80:in `block in server'
+	/root/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/railties-4.2.5.1/lib/rails/commands/commands_tasks.rb:75:in `tap'
+	/root/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/railties-4.2.5.1/lib/rails/commands/commands_tasks.rb:75:in `server'
+	/root/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/railties-4.2.5.1/lib/rails/commands/commands_tasks.rb:39:in `run_command!'
+	/root/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/railties-4.2.5.1/lib/rails/commands.rb:17:in `<top (required)>'
+	/root/workspace/project_dongal/bin/rails:9:in `require'
+	/root/workspace/project_dongal/bin/rails:9:in `<top (required)>'
+	/root/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/spring-1.6.2/lib/spring/client/rails.rb:28:in `load'
+	/root/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/spring-1.6.2/lib/spring/client/rails.rb:28:in `call'
+	/root/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/spring-1.6.2/lib/spring/client/command.rb:7:in `call'
+	/root/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/spring-1.6.2/lib/spring/client.rb:28:in `run'
+	/root/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/spring-1.6.2/bin/spring:49:in `<top (required)>'
+	/root/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/spring-1.6.2/lib/spring/binstub.rb:11:in `load'
+	/root/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/spring-1.6.2/lib/spring/binstub.rb:11:in `<top (required)>'
+	/root/.rbenv/versions/2.3.0/lib/ruby/2.3.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+	/root/.rbenv/versions/2.3.0/lib/ruby/2.3.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+	/root/workspace/project_dongal/bin/spring:13:in `<top (required)>'
+	bin/rails:3:in `load'
+	bin/rails:3:in `<main>'
+[2016-02-19 17:45:37] INFO  going to shutdown ...
+[2016-02-19 17:45:37] INFO  WEBrick::HTTPServer#start done.
+
+
+Started GET "/dongal_notices" for 127.0.0.1 at 2016-02-19 17:00:10 +0900
+Processing by DongalNoticesController#index as */*
+  [1m[36mDongalNotice Load (0.9ms)[0m  [1mSELECT `dongal_notices`.* FROM `dongal_notices`[0m
+  Rendered dongal_notices/index.html.erb within layouts/application (525.5ms)
+Completed 200 OK in 696ms (Views: 694.2ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/dongal_notices" for 127.0.0.1 at 2016-02-19 17:00:10 +0900
+Processing by DongalNoticesController#index as */*
+  [1m[35mDongalNotice Load (1.0ms)[0m  SELECT `dongal_notices`.* FROM `dongal_notices`
+  Rendered dongal_notices/index.html.erb within layouts/application (656.9ms)
+Completed 200 OK in 813ms (Views: 811.1ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-02-19 17:20:05 +0900
+Processing by G4DongalBoardNormalsController#index as */*
+  [1m[36mG4DongalBoardNormal Load (0.3ms)[0m  [1mSELECT `g4_dongal_board_normals`.* FROM `g4_dongal_board_normals`[0m
+  Rendered g4_dongal_board_normals/index.html.erb within layouts/application (95.3ms)
+Completed 200 OK in 171ms (Views: 170.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/dongal_notices" for 127.0.0.1 at 2016-02-19 17:20:05 +0900
+Processing by DongalNoticesController#index as */*
+  [1m[35mDongalNotice Load (1.1ms)[0m  SELECT `dongal_notices`.* FROM `dongal_notices`
+  Rendered dongal_notices/index.html.erb within layouts/application (626.3ms)
+Completed 200 OK in 778ms (Views: 776.9ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-02-19 17:30:05 +0900
+Processing by G4DongalBoardNormalsController#index as */*
+  [1m[36mG4DongalBoardNormal Load (0.3ms)[0m  [1mSELECT `g4_dongal_board_normals`.* FROM `g4_dongal_board_normals`[0m
+  Rendered g4_dongal_board_normals/index.html.erb within layouts/application (38.2ms)
+Completed 200 OK in 298ms (Views: 296.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/dongal_notices" for 127.0.0.1 at 2016-02-19 17:30:05 +0900
+Processing by DongalNoticesController#index as */*
+  [1m[35mDongalNotice Load (1.0ms)[0m  SELECT `dongal_notices`.* FROM `dongal_notices`
+  Rendered dongal_notices/index.html.erb within layouts/application (682.8ms)
+Completed 200 OK in 851ms (Views: 850.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-02-19 17:40:04 +0900
+Processing by G4DongalBoardNormalsController#index as */*
+  [1m[36mG4DongalBoardNormal Load (0.3ms)[0m  [1mSELECT `g4_dongal_board_normals`.* FROM `g4_dongal_board_normals`[0m
+  Rendered g4_dongal_board_normals/index.html.erb within layouts/application (98.8ms)
+Completed 200 OK in 186ms (Views: 184.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/dongal_notices" for 127.0.0.1 at 2016-02-19 17:40:05 +0900
+Processing by DongalNoticesController#index as */*
+  [1m[35mDongalNotice Load (0.9ms)[0m  SELECT `dongal_notices`.* FROM `dongal_notices`
+  Rendered dongal_notices/index.html.erb within layouts/application (468.3ms)
+Completed 200 OK in 610ms (Views: 608.5ms | ActiveRecord: 0.9ms)
+Exiting
